@@ -13,7 +13,7 @@
   "scripts": {
     "analyze": "npm run build && source-map-explorer build/static/js/*.chunk.js",
     "build": "rimraf ./build && react-scripts build",
-    "lint": "eslint \"**/*.js\"",
+    "lint": "eslint \"**/*.js\" --fix",
     "predeploy": "npm run build && react-snap",
     "start": "react-scripts start",
     "test": "npx jest"
