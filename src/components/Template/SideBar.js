@@ -12,18 +12,14 @@ const SideBar = () => (
         <img src={`${PUBLIC_URL}/images/me.jpg`} alt="" />
       </Link>
       <header>
-        <h2>Michael D&apos;Angelo</h2>
-        <p><a href="mailto:michael@gmail.com">michael@gmail.com</a></p>
+        <h2>Jack Rudelic</h2>
+        <p><a href="mailto:jackrudelic@gmail.com">jackrudelic@gmail.com</a></p>
       </header>
     </section>
 
     <section className="blurb">
       <h2>About</h2>
-      <p>Hi, I&apos;m Michael. I am a <a href="https://icme.stanford.edu/">Stanford ICME</a> graduate, YC Alumni,
-        and the VP of Engineering at <a href="https://smileidentity.com">Smile Identity</a>. Previously,
-        I was the co-founder and CTO of <a href="https://arthena.com">Arthena</a>
-        , co-founder of <a href="https://matroid.com">Matroid</a>, and worked at
-        {' '}<a href="https://planet.com">Planet</a> and <a href="https://facebook.com">Facebook</a>.
+      <p>Hi, I&apos;m Jack. I am a native St. Louis-an. I am a practice leader at <a href="https://www.slalom.com/">Slalom</a> in St. Louis. I graduated from <a href="https://www.missouri.edu/">Mizzou in Columbia, MO</a> in 2009 with a B.S. in Design. I am interested in emerging technology, IoT, and personal health data. I am also a huge fan of the St. Louis Blues and Cardinals.
       </p>
       <ul className="actions">
         <li>
@@ -34,7 +30,7 @@ const SideBar = () => (
 
     <section id="footer">
       <ContactIcons />
-      <p className="copyright">&copy; Michael D&apos;Angelo <Link to="/">jacksonrdlc.com</Link>.</p>
+      <p className="copyright">&copy; Jack Rudelic <Link to="/">jacksonrdlc.github.io</Link>.</p>
     </section>
   </section>
 );

@@ -13,7 +13,7 @@ const data = [
     icon: faGithub,
   },
   {
-    link: 'https://www.instagram.com/dangelosaurus/',
+    link: 'https://www.instagram.com/jackrudelic/',
     label: 'Instagram',
     icon: faInstagram,
   },
